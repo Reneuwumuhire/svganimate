@@ -14,6 +14,7 @@ const TeamGeaIcon = ({ cursor, cardRef, mouseOnCard }: Props) => {
 			setGradientCenter({ cx: `${(cursor.x / rect.width) * 100}%`, cy: `${(cursor.y / rect.height) * 100}%` });
 		}
 	}, [cursor, cardRef]);
+
 	return (
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 13.5829" className="w-96 h-96 duration-200 transition-all">
 			<defs>

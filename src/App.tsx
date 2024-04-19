@@ -79,7 +79,7 @@ const App = () => {
 				<div className="flex flex-col w-2/5 justify-between">
 					<div className="flex flex-col gap-5">
 						<BoltIcon className=" w-14 rounded-lg bg-neutral-950/70 stroke-orange-400 p-2  shadow-inner" />
-						<h1 className=" font-poppins text-neutral-200 tracking-wide text-2xl">Firebase</h1>
+						<h1 className=" font-poppins text-neutral-200 tracking-wide text-2xl">TeamGEA</h1>
 						<p className="-mt-2 font-poppins text-neutral-500 tracking-wide ">Every project is a full Postgree database, the world's most trusted relational databse.</p>
 					</div>
 					<div className=" flex flex-col font-poppins text-neutral-200 tracking-wide">
