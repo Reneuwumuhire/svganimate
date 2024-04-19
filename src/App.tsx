@@ -3,6 +3,7 @@ import Flame from "./components/flame";
 import { useRef, useState } from "react";
 import Bolt from "./components/bolt";
 import TeamGeaIcon from "./components/icon";
+import DonutComponent from "./components/donut";
 
 const App = () => {
 	const cardsRef = useRef<HTMLElement>(null);
@@ -20,7 +21,7 @@ const App = () => {
 	};
 	return (
 		<main
-			className=" w-full h-screen flex flex-row  place-items-center justify-center
+			className=" w-full h-screen flex flex-col items-center justify-center 
     ">
 			{/* <section className="card" ref={cardsRef} onMouseEnter={() => setMouseOnCard(true)} onMouseLeave={() => setMouseOnCard(false)} onMouseMove={handleMouseMove}>
 				<div className="flex flex-col w-2/5 justify-between">
@@ -100,6 +101,9 @@ const App = () => {
 				<div className=" w-3/5 flex flex-col place-items-center">
 					<TeamGeaIcon mouseOnCard={mouseOnCard} cursor={cursor} cardRef={cardsRef} />
 				</div>
+			</section>
+			<section className="">
+				<DonutComponent />
 			</section>
 		</main>
 	);
