@@ -19,7 +19,7 @@ const TeamGeaIcon = ({ cursor, cardRef, mouseOnCard }: Props) => {
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 13.5829" className="w-96 h-96 duration-200 transition-all">
 			<defs>
 				<radialGradient id="emeraldGradient" r="35%" gradientUnits="userSpaceOnUse" cx={gradientCenter.cx} cy={gradientCenter.cy}>
-					{mouseOnCard && <stop stopColor="#FFA000" />}
+					{mouseOnCard && <stop stopColor="#00D49F" />}
 					<stop offset="1" stopColor="#404040" />
 				</radialGradient>
 			</defs>
